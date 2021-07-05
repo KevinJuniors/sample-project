@@ -1,5 +1,5 @@
 import './App.css';
-import Mapcontents from './Mapcontents';
+import Mapcontents from './MapContent';
 // import KaKaoMap from "./Mapcontents";
 
 class App extends Mapcontents {
