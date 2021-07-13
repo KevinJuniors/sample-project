@@ -11,6 +11,12 @@ const Map = () => {
         };
 
         const map = new kakao.maps.Map(container, options);
+        const markerPostion = new kakao.maps.LatLng(37.20962553442109, 127.0607309167853)
+        const maker = new kakao.maps.Marker({
+            position: markerPostion
+        });
+
+        maker.setMap(map);
     }, []);
 
     return (
