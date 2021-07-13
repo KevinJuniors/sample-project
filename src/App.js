@@ -1,12 +1,12 @@
+import { Component } from 'react';
 import './App.css';
-import Mapcontents from './MapContent';
-// import KaKaoMap from "./Mapcontents";
+import Map from './Map';
 
-class App extends Mapcontents {
+class App extends Component {
   render() {
     return (
       <div className="App">
-        <Mapcontents />
+        <Map />
       </div>
     );
   }
